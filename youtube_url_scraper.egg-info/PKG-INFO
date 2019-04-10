@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: youtube-url-scraper
+Version: 1.1
+Summary: Python script to scrape videos urls on any YouTube page
+Home-page: https://github.com/zvk/youtube_url_scraper
+Author: Zack Zukowski
+Author-email: zack@pex.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

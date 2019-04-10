@@ -1,14 +1,14 @@
 from setuptools import setup
 
-setup(name='youtube-trending-videos-scraper',
-      version='1.0',
-      description='Python script to scrape videos that are trending on YouTube',
-      url='https://github.com/jessecordeiro/youtube_trending_scraper',
-      author='Jesse Cordeiro',
-      author_email='jesse.cordeiro@mail.utoronto.ca',
+setup(name='youtube-url-scraper',
+      version='1.1',
+      description='Python script to scrape videos urls on any YouTube page',
+      url='https://github.com/zvk/youtube_url_scraper',
+      author='Zack Zukowski',
+      author_email='zack@pex.com',
       license='MIT',
       packages=[
-        'youtube_trending_scraper'
+        'youtube_url_scraper'
       ],
       install_requires=[
         'apscheduler',
