@@ -20,7 +20,7 @@ This is a Python scraper for collecting urls any YouTube page.
 
   ```bash
   git clone https://github.com/zvk/youtube-url-scraper.git
-  cd youtube-trending-videos-scraper
+  cd youtube-url-scraper
   ```
 
 3. **Install dependencies:**
