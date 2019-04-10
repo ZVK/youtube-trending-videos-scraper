@@ -1,4 +1,4 @@
-## Youtube Videos Scraper
+## Youtube Url Scraper
 
 This is a Python scraper for collecting urls any YouTube page.
 
