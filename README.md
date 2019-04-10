@@ -33,12 +33,12 @@ This is a Python scraper for collecting urls any YouTube page.
 ```python
 import youtube_url_scraper
 
-youtube_trending_scraper.Scraper.scrape()
+youtube_url_scraper.Scraper.scrape()
 ```
 #### Required argument: url
 ```python
 # Example: scrape news videos in France
-youtube_trending_scraper.Scraper.scrape("https://www.youtube.com/channel/UCYfdidRxbB8Qhf0Nx7ioOYw?gl=FR&hl=fr")
+youtube_url_scraper.Scraper.scrape("https://www.youtube.com/channel/UCYfdidRxbB8Qhf0Nx7ioOYw?gl=FR&hl=fr")
 ```
 
 ## <a name="output"></a>Output
