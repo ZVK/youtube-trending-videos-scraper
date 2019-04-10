@@ -1,6 +1,6 @@
-## Youtube Trending Videos Scraper
+## Youtube Videos Scraper
 
-This is a Python scraper for YouTube's feed of videos that are trending.
+This is a Python scraper for collecting urls any YouTube page.
 
 ## Contents
 
@@ -13,13 +13,13 @@ This is a Python scraper for YouTube's feed of videos that are trending.
 ## <a name="req/install"></a>Requirements/Installation
 
 1. **Install requirement(s):**
-  + [Python 3.4.3](https://www.python.org/downloads/release/python-343/)
+  + [Python >= 3.4.3](https://www.python.org/downloads/release/python-343/)
   + [pip](https://pip.pypa.io/en/stable/installing/)
 
 2. **Clone repository:**
 
   ```bash
-  git clone https://github.com/jessecordeiro/youtube-trending-videos-scraper.git
+  git clone https://github.com/zvk/youtube-url-scraper.git
   cd youtube-trending-videos-scraper
   ```
 
@@ -31,16 +31,14 @@ This is a Python scraper for YouTube's feed of videos that are trending.
 
 ## <a name="usage"></a>Usage
 ```python
-import youtube_trending_scraper
+import youtube_url_scraper
 
 youtube_trending_scraper.Scraper.scrape()
 ```
-#### Optional argument: [country code](https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains)
-
-Domain defaults to .com if no argument is provided
+#### Required argument: url
 ```python
-# Example: scrape Canada's trending videos
-youtube_trending_scraper.Scraper.scrape("ca")
+# Example: scrape news videos in France
+youtube_trending_scraper.Scraper.scrape("https://www.youtube.com/channel/UCYfdidRxbB8Qhf0Nx7ioOYw?gl=FR&hl=fr")
 ```
 
 ## <a name="output"></a>Output
