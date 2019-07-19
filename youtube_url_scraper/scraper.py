@@ -48,7 +48,7 @@ class Scraper:
                 video_obj["upload_date"] = meta_info.contents[0].string
                 video_obj["view_count"] = meta_info.contents[1].string.split(" ")[0]
             else:
-                video_page_response = requests.get(Scraper.URL.format(country_code) + video_obj["video_url"])
+                video_page_response = requests.get(Scraper.URL.format(url) + video_obj["video_url"])
                 parsed_response = BeautifulSoup(video_page_response.text, "html.parser")
                 if parsed_response.find("span", class_="date"):
                     video_obj["upload_date"] = parsed_response.find("span", class_="date").string
